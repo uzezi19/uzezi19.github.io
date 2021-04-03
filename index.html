@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css"/>
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__display"><form><input type="text" id="calculator-display" value="0"/></form></div>
+        <div class="calculator__keys">
+            <button id="button">7</button>
+            <button id="button">8</button>
+            <button id="button">9</button>
+            <button class="key-operator" id="button" data-action="add">+</button><br>
+            <button id="button">4</button>
+            <button id="button">5</button>
+            <button id="button">6</button>
+            <button class="key-operator" id="button" data-action="subtract">-</button><br>
+            <button id="button">1</button>
+            <button id="button">2</button>
+            <button id="button">3</button>
+            <button class="key-operator" id="button" data-action="multiply">&times;</button><br>
+            <button id="button">0</button>
+            <button id="button" data-action="decimal">.</button>
+            <button  data-action="clear" id="button" >C</button>
+            <button class="key-operator" id="button" data-action="divide">÷</button><br>
+            <button class="key-equal"  id="key-equal" data-action="calculate">=</button>
+          </div>
+      </div>
+</body>
+</html>

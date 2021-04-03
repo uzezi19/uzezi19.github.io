@@ -1,0 +1,32 @@
+  .calculator{
+      width: 172px;
+      border: thick solid black;
+      margin-left: 25%;
+      margin-top: 5%;
+      background-color: rgb(8, 8, 7);
+  }
+ #button{
+      width: 3em;
+      height: 2em;
+      margin-top: 0.4em;
+      color: red;
+      font-weight: bolder;
+  }
+  #key-equal{
+width: 10em;
+margin-left: 1.5em;
+margin-top: 0.7em;
+height: 2em;
+background-color: blue;
+color: white;
+font-weight: bolder;
+  }
+  #calculator-display{
+      width: 12.5em;
+      height: 2em;
+      border: thin solid black;
+      font-weight: bolder;
+  }
+.is-depressed{
+  background-color: yellow;
+}
